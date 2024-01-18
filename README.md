@@ -75,8 +75,8 @@ For solving a single challenge you get 1 point. You can also increase the points
 | Generate enums from a text file                            |  1.5   |
 | Generate translations for a new language                   |  1.5   |
 | Migrate a class from Java to another language              |        |
-| Generate 100 person’s names                                |        |
-| Write unit test cases for a previous algorithm             |        |
+| Generate 100 person’s names                                |  1.5   |
+| Write unit test cases for a previous algorithm             |  1.5   |
 | Write TestBench tests                                      |        |
 | Write TestBench unit tests                                 |        |
 | Refactor selection into a new method                       |        |
