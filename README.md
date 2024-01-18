@@ -84,7 +84,7 @@ For solving a single challenge you get 1 point. You can also increase the points
 | Optimize BogoSort into something better                    |        |
 | Optimize an algorithm                                      |        |
 | Ask Copilot to explain you a piece of code                 |  1.5   |
-| Add JavaDocs                                               |        |
+| Add JavaDocs                                               |  1.5   |
 | Find bugs in org.vaadin.challenges.bugs                    |        |
 | Evaluate InsecureCodeExample for potential security issues |        |
 | Implement Game of Life                                     |        |
