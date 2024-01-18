@@ -5,7 +5,7 @@ public class FizzBuzzThirty {
     // create a run method that prints numbers from 1 to 30
     public static void run() {
         // create a for loop that prints numbers from 1 to 30
-        for (int i = 1; i <= 30; i++) {
+        for (var i = 1; i <= 30; i++) {
             // if the number is a multiple of 3 and 5, print "FizzBuzz"
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.println("FizzBuzz");

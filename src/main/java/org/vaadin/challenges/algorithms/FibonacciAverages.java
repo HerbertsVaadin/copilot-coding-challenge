@@ -8,17 +8,17 @@ public class FibonacciAverages {
             return 0.0;
         }
 
-        int[] fibonacciNumbers = new int[n];
+        var fibonacciNumbers = new int[n];
         fibonacciNumbers[0] = 0;
         fibonacciNumbers[1] = 1;
 
-        for (int i = 2; i < n; i++) {
+        for (var i = 2; i < n; i++) {
             fibonacciNumbers[i] = fibonacciNumbers[i - 1] + fibonacciNumbers[i - 2];
         }
 
-        int sum = 0;
-        for (int i = 0; i < n; i++) {
-            sum += fibonacciNumbers[i];
+        var sum = 0;
+        for (var num : fibonacciNumbers) {
+            sum += num;
         }
 
         return (double) sum / n;

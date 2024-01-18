@@ -80,7 +80,7 @@ For solving a single challenge you get 1 point. You can also increase the points
 | Write TestBench tests                                      |        |
 | Write TestBench unit tests                                 |        |
 | Refactor selection into a new method                       |        |
-| Modernize Java code                                        |        |
+| Modernize Java code                                        |  1.5   |
 | Optimize BogoSort into something better                    |        |
 | Optimize an algorithm                                      |        |
 | Ask Copilot to explain you a piece of code                 |        |
