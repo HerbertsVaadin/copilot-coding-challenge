@@ -1,3 +1,5 @@
+package org.vaadin.challenges.datamanipulation;
+
 public enum CategoriesWithIdsAndCountriesEnum {
     SUSTAINABLE_LIVING(1, "Japan"),
     VIRTUAL_REALITY(2, "Australia"),
@@ -64,5 +66,14 @@ public enum CategoriesWithIdsAndCountriesEnum {
 
     public String getCountry() {
         return country;
+    }
+
+    public static CategoriesWithIdsAndCountriesEnum resolveFromId(int id) {
+        for (CategoriesWithIdsAndCountriesEnum category : CategoriesWithIdsAndCountriesEnum.values()) {
+            if (category.getId() == id) {
+                return category;
+            }
+        }
+        return null;
     }
 }

@@ -1,3 +1,5 @@
+package org.vaadin.challenges.datamanipulation;
+
 public enum CategoriesWithIdsEnum {
     ADVENTURE_TRAVEL(0),
     SUSTAINABLE_LIVING(1),
