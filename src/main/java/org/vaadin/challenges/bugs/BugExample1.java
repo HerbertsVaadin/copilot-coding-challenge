@@ -6,7 +6,7 @@ public class BugExample1 {
         int result = divide(10, 0);
         System.out.println("Result: " + result);
     }
-
+    
     private static int divide(int a, int b) {
         return a / b;
     }
