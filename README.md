@@ -69,7 +69,7 @@ For solving a single challenge you get 1 point. You can also increase the points
 
 | Challenge                                                  | Points |
 |:-----------------------------------------------------------|:-------|
-| Solve FizzBuzz 30                                          |  1.5   |
+| Solve FizzBuzz 30                                          |  1.5   | 
 | Solve Bubble sort                                          |        |
 | Solve Fibonacci average                                    |        |
 | Generate enums from a text file                            |        |
