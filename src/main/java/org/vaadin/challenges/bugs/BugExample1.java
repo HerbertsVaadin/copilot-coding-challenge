@@ -3,11 +3,18 @@ package org.vaadin.challenges.bugs;
 public class BugExample1 {
 
     public static void main(String[] args) {
-        int result = divide(10, 0);
-        System.out.println("Result: " + result);
+        try {
+            int result = divide(10, 0);
+            System.out.println("Result: " + result);
+        } catch (IllegalArgumentException e) {
+            System.out.println("Error: " + e.getMessage());
+        }
     }
     
-    private static int divide(int a, int b) {
+    protected static int divide(int a, int b) {
+        if (b == 0) {
+            throw new IllegalArgumentException("Divisor cannot be zero");
+        }
         return a / b;
     }
 }
