@@ -72,8 +72,8 @@ For solving a single challenge you get 1 point. You can also increase the points
 | Solve FizzBuzz 30                                          |  1.5   | 
 | Solve Bubble sort                                          |  1.5   |
 | Solve Fibonacci average                                    |  1.5   |
-| Generate enums from a text file                            |        |
-| Generate translations for a new language                   |        |
+| Generate enums from a text file                            |  1.5   |
+| Generate translations for a new language                   |  1.5   |
 | Migrate a class from Java to another language              |        |
 | Generate 100 person’s names                                |        |
 | Write unit test cases for a previous algorithm             |        |
